@@ -28,7 +28,7 @@ public class DocumentController {
 	@Autowired
 	private IDocumentService service;
 
-	//1. show Documents page
+	//1. show Documents all page
 	@GetMapping("/all")
 	public String showDocs(Model model) {
 		model.addAttribute("idVal", System.currentTimeMillis());

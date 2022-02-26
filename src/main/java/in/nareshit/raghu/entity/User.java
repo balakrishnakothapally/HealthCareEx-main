@@ -18,7 +18,7 @@ import lombok.NoArgsConstructor;
 @Table(name="user_tab")
 public class User {
 	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)//for mysql
 	@Column(name="usr_id_col")
 	private Long id;
 	
